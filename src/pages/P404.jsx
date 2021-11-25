@@ -145,25 +145,6 @@ const P404 = (props) => {
       <Four1 width={windowDimensions.width} height={windowDimensions.height} />
       <Zero width={windowDimensions.width} height={windowDimensions.height} />
       <Four2 width={windowDimensions.width} height={windowDimensions.height} />
-      {/* <mesh>
-        <textGeometry
-          args={[
-            "404",
-            {
-              font,
-              size: 40,
-              height: 30,
-              curveSegments: 32,
-              bevelEnabled: true,
-              bevelThickness: 6,
-              bevelSize: 2.5,
-              bevelOffset: 0,
-              bevelSegments: 8,
-            },
-          ]}
-        />
-        <meshNormalMaterial /> */}
-      {/* </mesh> */}
     </>
   );
 };
